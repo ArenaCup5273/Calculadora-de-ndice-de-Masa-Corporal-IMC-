@@ -1,0 +1,196 @@
+
+body {
+    background-color: #4ad488;
+}
+
+h1 {
+    padding: 15px;
+    background-color: rgb(53, 53, 53);
+    margin-left: -5px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 130px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.541);
+}
+
+.info {
+    padding: 9px;
+    background-color: rgb(1, 88, 88);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    text-align: left;
+    color: rgb(209, 209, 209);
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.623);
+    
+}
+
+.imagen1 {
+    margin-left: 530px;
+    margin-top: 100px;
+}
+
+.imagen2 {
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.botonMasculino {
+    margin-top: 40px;
+    margin-left: 110px;
+    border-radius: 45px;
+    width: 101px;
+    height: 101px;
+    background-color: rgb(0, 248, 207);
+    cursor: pointer;
+    border: none;
+    ;
+    box-shadow: 0px 0px 10px #00000060;
+    background-image: url("http://127.0.0.1:5500/masculino.png")
+}
+.botonMasculino:active {
+    background-color: #003a1a;
+}
+
+.botonFemenino {
+    margin-left: 60px;
+    border-radius: 45px;
+    width: 101px;
+    height: 101px;
+    background-color: rgb(0, 248, 207);
+    cursor: pointer;
+    border: none;
+    ;
+    box-shadow: 0px 0px 10px #00000060;
+    background-image: url("http://127.0.0.1:5500/femenino.png")
+}
+
+.botonFemenino:active {
+    background-color: #003a1a;
+}
+
+ .seleccion {
+     margin-top: 100px;
+     text-align: center;
+ }
+
+h4 {
+    border-radius: 7px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 430px;
+    margin-right: 430px;
+    padding: 30px;
+    background-color: rgb(66, 66, 66);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.685);
+}
+
+h5 {
+    border-radius: 7px;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 500px;
+    margin-bottom: 0px;
+    margin: -40px;
+    margin-left: 430px;
+    margin-right: 430px;
+    background-color: #015858;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.801);
+}
+
+.femenino {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: -480px;
+    margin-left: 700px;
+    color: white;
+}
+
+.masculino {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: -68px;
+    margin-left: 535px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#txtpeso {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -50px;
+    width: 130px;
+    height: 30px;
+    margin-left: 680px;
+}
+#txtaltura {
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px;
+    width: 130px;
+    height: 30px;
+    margin-left: 680px;
+    margin-top: 80px;
+}
+
+.introPeso { 
+    font-family: 'roboto', sans-serif; 
+    font-size: 18px; 
+    margin-top: -30px; 
+    margin-bottom: 20px; 
+    margin-left: 450px; 
+    color: white; 
+}
+
+.introAltura {
+    font-family: 'roboto', sans-serif; 
+    font-size: 18px; 
+    margin-top: -30px; 
+    margin-bottom: 20px; 
+    margin-left: 450px; 
+    color: white; 
+}
+
+#btnCalcular {
+    box-shadow: 0px 10px 10px #00000093;
+    border-radius: 10px;
+    border: none;
+    background-color: #05c988;    
+    width: 100px;
+    height: 40px;
+    margin-top: 95px;
+    margin-left: 615px;
+}
+
+
+#btnCalcular:hover{
+    background: #00bb8f;
+    box-shadow: 0 0 10px #0000009d, 0 0 #009c78, 0 0 30px #009c78;
+
+}
+
+#resultado {
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 70px;
+    background-color:#016464;
+    margin-left: 430px;
+    margin-right: 430px;
+    box-shadow: 0px 10px 10px hsla(0, 0%, 0%, 0.692);
+}
